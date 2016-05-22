@@ -1,4 +1,7 @@
 class Weapon():
+	"""
+        This will be the parent class for all weapons in the game.
+	"""
 	__damage = 0
 	__durability = 0
 	__slots = 0
@@ -7,4 +10,7 @@ class Weapon():
 	
 	
 class Sword(Weapon):
+	"""
+       
+	"""
 	pass

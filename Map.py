@@ -4,6 +4,9 @@ class Map(object):
 
 
 	def __init__(self):
+		"""
+		   Will be used when creating dungeons
+		"""
 		pass
 	
 
@@ -24,7 +27,13 @@ class Map(object):
 	
 	
 	def player_location(self, new_place):
-		print new_place
+		"""
+		    args: new_place - list[]
+		                       holds the current x and y coords of the player
+		    
+		    feat: used to update map to include the users new position 
+		          while deleting the user old position. 
+		"""
 		row = 0	
 		while row < 5:
 			col = 0
